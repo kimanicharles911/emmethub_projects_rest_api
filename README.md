@@ -14,6 +14,10 @@
 ```sh
 npm i
 ```
+* Add the below line in your package.json file as one of the scripts value:
+```sh
+"dev": "nodemon app.js"
+```
 
 ##### Dependencies
 * Node
