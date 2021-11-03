@@ -7,7 +7,7 @@
   </a>
 </p>
 
-> This is the repository of a REST-APi that provides access to data about some of the projects done by Emmethub. It has been created using Expressjs and covers the 4 main http methods. It stores data in a JSON file. The comments the file app.js allow easy understanding of how it functions.
+> This is the repository of a REST-API that provides access to data about some of the projects done by Emmethub. It has been created using Expressjs and covers the 4 main http methods. It stores data in a JSON file. The comments the file app.js allow easy understanding of how it functions.
 
 ## Deployed at
 * https://emmethubprojectsrestapi.herokuapp.com/api
@@ -41,7 +41,7 @@ npm run dev
 ```
 
 ## No Data/JSON returned ?
-> If while using the GET endpoint no JSON data is returned it means that someone used the DELETE endpoint to delete all the data provided by this APi. Hence you can:
+> If while using the GET endpoint no JSON data is returned it means that someone used the DELETE endpoint to delete all the data provided by this API. Hence you can:
 1.Clone this repo and run it locally, that way it will work well with all the original data.
 2.or use the projectsData.json file in this repo together with the PUT method to add data to the hosted api. 
 
