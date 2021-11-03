@@ -12,6 +12,15 @@
 ## Deployed at
 * https://emmethubprojectsrestapi.herokuapp.com/api
 
+##### API Usage
+| HTTP method      |   EndPoint   |   Public Access   |   Example   |
+| ---- |:---- |:---- |:---- |
+| GET     | /api/    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api/    |
+| GET     | /api?id=2    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api?id=2    |
+| POST     | /api/repositories/new/    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api/repositories/new/    |
+| PUT     | /api/repository?id=2    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api/repository?id=2    |
+| DELETE     | /api/repository?id=2    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api/repository?id=2    |
+
 ## Setup/Installation Requirements
 ##### Install Dependencies
 
