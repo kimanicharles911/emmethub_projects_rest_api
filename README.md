@@ -7,7 +7,7 @@
   </a>
 </p>
 
-> This is a repository that holds a basic Expressjs rest-api. In it's simplicity it demonstrates the use of some http methods i.e GET, POST, PUT, DELETE. It is not commented however, to understand it you can read [this PDF](https://github.com/kimanicharles911/emmethub_projects_rest_api/blob/master/WD_L2T18_Express_II.pdf)
+> This is the repository of a REST-APi that provides access to data about some of the projects done by Emmethub. It has been created using Expressjs and covers the 4 main http methods. It stores data in a JSON file. The comments the file app.js allow easy understanding of how it functions.
 
 ## Deployed at
 * https://emmethubprojectsrestapi.herokuapp.com/api
@@ -15,11 +15,11 @@
 ##### API Usage
 | HTTP method      |   EndPoint   |   Public Access   |   Example   |
 | ---- |:---- |:---- |:---- |
-| GET     | /api/    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api/    |
-| GET     | /api?id=2    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api?id=2    |
-| POST     | /api/repositories/new/    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api/repositories/new/    |
-| PUT     | /api/repository?id=2    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api/repository?id=2    |
-| DELETE     | /api/repository?id=2    |  TRUE    |  emmethubprojectsrestapi.herokuapp.com/api/repository?id=2    |
+| GET     | /api/    |  TRUE    |  https://emmethubprojectsrestapi.herokuapp.com/api/    |
+| GET     | /api?id=2    |  TRUE    |  https://emmethubprojectsrestapi.herokuapp.com/api?id=2    |
+| POST     | /api/repositories/new/    |  TRUE    |  https://emmethubprojectsrestapi.herokuapp.com/api/repositories/new/    |
+| PUT     | /api/repository?id=2    |  TRUE    |  https://emmethubprojectsrestapi.herokuapp.com/api/repository?id=2    |
+| DELETE     | /api/repository?id=2    |  TRUE    |  https://emmethubprojectsrestapi.herokuapp.com/api/repository?id=2    |
 
 ## Setup/Installation Requirements
 ##### Install Dependencies
