@@ -34,7 +34,7 @@ npm i
 "dev": "nodemon app.js"
 ```
 
-##### Usage
+##### Development Usage
 
 ```sh
 npm run dev
