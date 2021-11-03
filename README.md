@@ -42,8 +42,8 @@ npm run dev
 
 ## No Data/JSON returned ?
 > If while using the GET endpoint no JSON data is returned it means that someone used the DELETE endpoint to delete all the data provided by this APi. Hence you can:
-i.) Clone this repo and run it locally, that way it will work well with all the original data.
-ii.) or use the projectsData.json file in this repo together with the PUT method to add data to the hosted api. 
+1.Clone this repo and run it locally, that way it will work well with all the original data.
+2.or use the projectsData.json file in this repo together with the PUT method to add data to the hosted api. 
 
 ## How It Was Built
 ##### Node
